@@ -4,8 +4,12 @@
 #
 ###
 
-#dtaa locations
+#question
+research_desktop = TRUE
+
+#data locations
 bucket = 'D:\\data\\socialmediadata-beeradvocate'
+if(research_desktop == TRUE){bucket = '/N/project/c19/beer-advocate'}
 loc_import = 'data_raw'
 loc_export = 'data_bipartite_network'
 
@@ -16,7 +20,7 @@ library(data.table)
 
 #load data
 file_import = 'beer_reviews.csv'
-df = fread( file.path(bucket, loc_import, file_import) )
+df = read.( file.path(bucket, loc_import, file_import) )
 
 #we have 5 values for weights. I will generate 5 different bipartite
 #network edgelist data for those 5 different weights.
