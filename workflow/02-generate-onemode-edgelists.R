@@ -4,8 +4,12 @@
 #
 ###
 
-#dtaa locations
+#question
+research_desktop = TRUE
+
+#data locations
 bucket = 'D:\\data\\socialmediadata-beeradvocate'
+if(research_desktop == TRUE){bucket = '/N/project/c19/beer-advocate'}
 loc_import = 'data_bipartite_network'
 loc_export = 'data_onemode_network'
 
@@ -32,3 +36,4 @@ setnames(df2, c('beer_name', 'scale'), c('beer_name.2', 'scale.2') )
 rm(df)
 gc()
 result = merge(df1, df2, by = 'review_profilename', allow.cartesian=TRUE)
+result = result[ beer_name.1 != beer_name.2]
