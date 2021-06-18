@@ -20,7 +20,7 @@ library(data.table)
 
 #load data
 file_import = 'beer_reviews.csv'
-df = read.( file.path(bucket, loc_import, file_import) )
+df = fread( file.path(bucket, loc_import, file_import) )
 
 #we have 5 values for weights. I will generate 5 different bipartite
 #network edgelist data for those 5 different weights.
@@ -31,14 +31,16 @@ weights = c('review_overall',
             'review_taste')
 
 scale_weights = function(data, ego, alter, weight){
-  colnames = c(ego, alter, weight)
+    colnames = c(ego, alter, weight)
   result = data[ , ..colnames]
   result = result[  ,scale := scale(eval(parse(text = w)))]
+  result = result[  ,scale := round(scale,3)]
   result = result[ ,scale_byuser := scale(eval(parse(text = w))), by = review_profilename]
+  result = result[  ,scale := round(scale_byuser,3)]
   result
 }
 
-ego = 'beer_name'
+ego = 'beer_beerid'
 alter = 'review_profilename'
 
 weights = c('review_overall',
