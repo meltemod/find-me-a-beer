@@ -23,7 +23,7 @@ There is a good seperation across the [0-5] score range! :star2::star2::star2:
 
 <img src="https://github.com/meltemod/find-me-a-beer/blob/main/images/score-distribution.PNG?raw=true">
 
-## Project details: Next Steps
+## Project details: Next steps
 
 - :woman_technologist: Generate an algoritm of high-score matches based on the beer-to-beer network;
 - :bar_chart: Create an R Shiny App
