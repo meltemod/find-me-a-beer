@@ -3,19 +3,19 @@ Do you enjoy exploring new tastes? Let **find me a beer** help you.
 
 <img src="https://github.com/meltemod/find-me-a-beer/blob/main/images/beergiftest.gif?raw=true">
 
-But how **find me a beer** knows what you will like? Glad you asked.
+But how does **find me a beer** know what you will like? Glad you asked.
 
 ## We trust the opinions of the artisanal beer community!
-Using [1.5 million beer review data](https://www.kaggle.com/rdoume/beerreviews) from BeerAdvocate, this project generates beer-to-beer review score network.
+Using [1.5 million beer reviews](https://www.kaggle.com/rdoume/beerreviews) from BeerAdvocate, this project generates a beer-to-beer review score network.
 
 <img src="https://github.com/meltemod/find-me-a-beer/blob/main/images/data-detail.PNG?raw=true">
 
-## We trust the opinions of the artisanal beer community!
-If many people who liked *Beer A* also liked *Beer B*, it's a match!
+## It's a match! :beers:
+If reviewers who liked *Beer A* also liked *Beer B*, it's a match!
 
 <img src="https://github.com/meltemod/find-me-a-beer/blob/main/images/result-detail.PNG?raw=true">
 
-## Project details: score distribution
+## Project details: Score distribution
 
 Mean: 3.62; Median: 3.74.
 
