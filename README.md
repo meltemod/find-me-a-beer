@@ -10,7 +10,7 @@ Using [1.5 million beer reviews](https://www.kaggle.com/rdoume/beerreviews) from
 
 <img src="https://github.com/meltemod/find-me-a-beer/blob/main/images/data-detail.PNG?raw=true">
 
-## It's a match! :beers:
+## :beers: It's a match! 
 If reviewers who liked *Beer A* also liked *Beer B*, it's a match!
 
 <img src="https://github.com/meltemod/find-me-a-beer/blob/main/images/result-detail.PNG?raw=true">
@@ -22,3 +22,8 @@ Mean: 3.62; Median: 3.74.
 There is a good seperation across the [0-5] score range! :star2::star2::star2:
 
 <img src="https://github.com/meltemod/find-me-a-beer/blob/main/images/score-distribution.PNG?raw=true">
+
+## Project details: Next Steps
+
+- :woman_technologist: Generate an algoritm of high-score matches based on the beer-to-beer network;
+- :bar_chart: Create an R Shiny App
