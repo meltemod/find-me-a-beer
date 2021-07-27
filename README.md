@@ -1,4 +1,4 @@
-# Artisanal beers you will :sparkling_heart:
+# Artisan beers you will :sparkling_heart:
 Do you enjoy exploring new tastes? Let **find me a beer** help you.
 
 <img src="https://github.com/meltemod/find-me-a-beer/blob/main/images/beergiftest.gif?raw=true">
