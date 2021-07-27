@@ -25,5 +25,6 @@ There is a good seperation across the [0-5] score range! :star2::star2::star2:
 
 ## Project details: Next steps
 
-- :woman_technologist: Generate an algoritm of high-score matches based on the beer-to-beer network;
-- :bar_chart: Create an R Shiny App
+- :woman_technologist: Generate a matching algorithm based on the beer-to-beer network;
+- :chart_with_upwards_trend: Model Testing;
+- :link: Create an R Shiny App
