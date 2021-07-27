@@ -5,7 +5,7 @@ Do you enjoy exploring new tastes? Let **find me a beer** help you.
 
 But how does **find me a beer** know what you will like? Glad you asked.
 
-## We trust the opinions of the artisanal beer community!
+## We trust the opinions of the craft beer community!
 Using [1.5 million beer reviews](https://www.kaggle.com/rdoume/beerreviews) from BeerAdvocate, this project generates a beer-to-beer review score network.
 
 <img src="https://github.com/meltemod/find-me-a-beer/blob/main/images/data-detail.PNG?raw=true">
